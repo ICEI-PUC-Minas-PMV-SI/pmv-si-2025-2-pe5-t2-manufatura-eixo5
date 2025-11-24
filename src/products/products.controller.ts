@@ -4,6 +4,7 @@ import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { ApiBody, ApiOperation, ApiParam, ApiResponse } from '@nestjs/swagger';
 import { Product } from './entities/product.entity';
+import { ListProductResponseDto } from './dto/list-product.response.dto';
 
 @Controller('products')
 export class ProductsController {
@@ -25,9 +26,10 @@ export class ProductsController {
     summary: "Lê todos os produtos existentes",
     tags: ["Product"]
   })
-  @ApiResponse({ status: 200, type: Array<Product> })
+  @ApiResponse({ status: 200, type: ListProductResponseDto })
   async findAll() {
-    return await this.productsService.findAll();
+    const list = await this.productsService.findAll();
+    return { list }
   }
 
   @Get(':id')

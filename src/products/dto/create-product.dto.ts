@@ -13,7 +13,7 @@ export class CreateProductDto {
   description: string;
 
   @ApiProperty({ example: 1200.00 })
-  @Max(999)
+  @Max(999999)
   @IsPositive()
   price: number;
 }

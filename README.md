@@ -1,4 +1,21 @@
-# SOBRE
+# Manufatura
+
+`CURSO: Sistemas de Informação`
+
+`DISCIPLINA: Projeto - Projeto de Infraestrutura`
+
+`Eixo: 5`
+
+## Integrantes
+
+* Nicolas Cleiton Basilio Viana
+* João Pedro Reis Martins
+
+## Orientador
+
+* Alexandre Teixeira
+
+# Sobre
 
 Sistema backend feito para o gerenciamento de um CRUD simples no projeto de redes do eixo 5.
 

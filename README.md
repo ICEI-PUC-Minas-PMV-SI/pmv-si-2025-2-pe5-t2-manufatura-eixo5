@@ -10,6 +10,7 @@
 
 * Nicolas Cleiton Basilio Viana
 * João Pedro Reis Martins
+* Gregory Stevão Amilar Costa
 
 ## Orientador
 

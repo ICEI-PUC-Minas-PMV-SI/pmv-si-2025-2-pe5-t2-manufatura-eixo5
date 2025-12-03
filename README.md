@@ -42,3 +42,9 @@ npm run start:dev
 ## Documentação
 
 Acesse a url ```http://localhost:3000/api``` para consultar todas as rotas disponíveis nesta API.
+
+## Arquivos produzidos durante o projeto
+
+- [Unitech Insdustries](https://docs.google.com/document/d/1iIwsIKJr6sjNAn5L3ql6KpVGMojxsCv9g3zdu8ugpmM/edit?tab=t.0#heading=h.ujcd48i6ujcc)
+- [Planilha de equipamentos](https://docs.google.com/spreadsheets/d/1V1pG4GhCESbDc-ZFcBoozLqeFKR5K_lO/edit?gid=601139411#gid=601139411)
+- [PSI](https://docs.google.com/document/d/1Q2BQB3n4Bh8SIV3xEMl12wM4P30XYRP6/edit#heading=h.ujcd48i6ujcc)
